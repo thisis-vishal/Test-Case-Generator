@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: random-string-generator
+Version: 0.0.6
+Summary: A package to Generate random string
+Home-page: https://github.com/pypa/sampleproject
+Author: M. Adnan Jakati
+Author-email: adnanjackady@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### A package to  generate random string
+
+
+### Usage
+```
+from string_generator import string_gen
+string_gen.random_string(length=32,verbose=True,alpha_numeric=True)
+```
+
+### Optional Params:
+```
+length: Length of string
+alpha or alpha_numeric: type of string, includes special characters by default
+verbose: For some verbose
+```
